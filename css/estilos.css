@@ -656,7 +656,6 @@ footer .toparea .contact-info .box i{
 }
 footer .toparea .contact-info .box span{
     position:relative;
-    display:inline-block;
     left: 30px;
 }
 
@@ -2472,7 +2471,7 @@ input.error, select.error, textarea.error {
 
 .intro-ico-der{
     height: 100px;
-    width: 200px;
+    width: auto;
     display: inline-block;
     margin: 0px 0 0 0;
 }
@@ -2646,9 +2645,6 @@ section.main.bg_color_blue {
     right: 0;
 }
 
-
-
-
 .carousel-caption {
     margin: 5%;
     position: absolute;
@@ -2664,3 +2660,232 @@ section.main.bg_color_blue {
 }
 
 
+
+
+section.main.titulo-azul{
+    background: #0071bd;
+    width: 100%;
+    height: 100%;
+}
+
+
+.blanco p{
+    color: #FFF;
+    text-align:center;
+}
+
+span.titulo-blanco h2{
+    color: #FFF;
+}
+
+span.titulo-gris h2{
+    color:#4D4D4D;
+}
+
+/*.imagen-projects img{
+    max-width: 350px;
+}
+
+*/
+.verticalLine {
+    margin: 0px 30px 0 0; 
+    height: 230px;
+    border-right: 1px solid #b3b3b3;
+}
+
+
+section.main-dos {
+    padding: 40px 0 40px 0;
+    width: 100%;
+    background: #fff;
+}
+
+section.main-tres {
+    padding: 0px 0 0px 0;
+    width: 100%;
+    background: #fff;
+}
+
+.map{
+    width: 100%;
+    height: 300px;
+
+}
+
+.map iframe{
+    width: 100%;
+    height: 300px;
+}
+
+
+.blog.small-2 {
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+
+.blog.small-2 h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.info_intro_3 p{
+    text-align: center;
+    font-weight: lighter;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.info_intro_4 p{
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 22px;
+    font-size: 18px;
+    padding: 30px;
+}
+
+
+.pleca-ser-1{
+    width: 100%;
+    height: 8px;
+    background: #0171bd;
+    display: block;
+}
+
+.pleca-ser-2{
+    width: 100%;
+    height: 8px;
+    background: #28abe3;
+    display: block;
+    margin: 50px 0 0 0;
+}
+
+
+
+.post-1 {
+    background: white;
+    padding: 30px 0;
+    border: 1px #eee solid;
+    height: 380px;
+    margin: 30px 0 30px 0;
+}
+
+.post-2 {
+    background: white;
+    padding: 30px 0;
+    border: 1px #eee solid;
+    height: 440px;
+}
+
+.box_link_2 {
+    color: #e2232a;
+    padding: 0 0 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.box_link_2 .btn-sm {
+    padding: 10px 45px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.box_link_2 .btn1 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    background: #0171bd;
+    color: #fff;
+    margin: 0 0 20px 0;
+    /* border-bottom: 1px solid #555; */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+
+}
+
+
+.box_link_2 span a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*banner clients*/
+
+section.main-2 {
+    padding: 40px 0 40px 0;
+    width: 100%;
+    background: #0171bd;
+    border-bottom: 1px solid #0171bd;
+}
+
+
+.subtitle_slide p {
+    margin:-50px 0 0 -80px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 30px;
+    width: 70%;
+    text-align: left;
+}
+
+.title_slide p {
+    margin:0px 0 0 -80px;
+    color: #b7b7b7;
+    font-size: 18px;
+    line-height: 30px;
+    width: 800px;
+    text-align: left;
+}
+
+.img_client{
+    width: 260px;
+    height: auto;
+    position: relative;
+    left: 70%;
+
+}
+
+
+.carousel-control-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10% 0 0 0;
+    width: 15%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.carousel-control-2.right {
+    right: 0;
+    left: auto;
+}
+
+.carousel-control-2.left {
+}
+
+.carousel-indicators-2{
+    display: none;
+}
+
+.pleca-cli-1{
+    width: 100%;
+    height: 100px;
+    background: #0171bd;
+    display: block;
+}

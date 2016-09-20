@@ -46,7 +46,36 @@
         padding-bottom:30px;
         border-bottom:1px dashed rgba(0,0,0,0.2);
     }
-    
+
+    /* banner-clients */
+
+.subtitle_slide p {
+    margin:-50px 0 0 -50px;
+    color: #FFF;
+    font-size: 22px;
+    line-height: 30px;
+    width: 70%;
+    text-align: left;
+}
+
+.title_slide p {
+    margin:0px 0 0 -50px;
+    color: #b7b7b7;
+    font-size: 18px;
+    line-height: 30px;
+    width: 70%;
+    text-align: left;
+}
+
+.img_client{
+    width: 260px;
+    height: auto;
+    position: relative;
+    left: 60%;
+
+}
+
+
 
 }
 
@@ -166,6 +195,59 @@
     }
 
 
+    .navbar-default .navbar-brand {
+        height:100px;
+        width: 250px;
+    }
+
+
+
+    .carousel-indicators{
+display: none;}
+
+.info_intro{
+        margin: 30px 0 0 0;
+    }
+
+    .imagen-projects img{
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* banner-clients */
+
+.subtitle_slide p {
+    margin:-50px 0 0 0px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+    text-align: left;
+}
+
+.title_slide p {
+    margin:0px 0 0 0px;
+    color: #b7b7b7;
+    font-size: 14px;
+    line-height: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+.img_client{
+    width: 260px;
+    height: auto;
+    position: relative;
+    left: 0%;
+    margin: 0 auto;
+    padding: 300px 0 0 0;
+
+}
+
+
+
 }
 
 @media (max-width: 480px) {
@@ -251,6 +333,10 @@ display: none;}
     footer .toparea .social{
             top: -100px;
     }
+
+    .info_intro{
+        margin: 30px 0 0 0;
+    }
 }
 
 /* Home Concept */
@@ -258,20 +344,6 @@ display: none;}
 
 }
 
-@media (max-width: 767px) {
-
-     .navbar-default .navbar-brand {
-        height:100px;
-        width: 250px;
-    }
-
-
-
-    .carousel-indicators{
-display: none;}
-
-
-}
 
 @media (min-width:767px){
 
